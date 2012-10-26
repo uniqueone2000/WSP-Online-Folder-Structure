@@ -1,0 +1,405 @@
+/*-------------------------- New CSS for Florida Department of Highway Safety and Motor Vehicles --------------------------*/
+
+/*-------------------------- Start of General Tags --------------------------*/
+
+
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0em;
+	font-family: arial, helvetica; 
+	color: #000;
+	line-height: 1.5em;
+}
+p {
+
+}
+
+a {
+	text-decoration: none;
+}
+/*-------------------------- End of General Tags --------------------------*/
+
+/*-------------------------- Start of Body --------------------------*/
+
+body {
+	margin: 0em auto;
+	width: 60.000em;
+	background: #999;
+}
+/*-------------------------- End of Body --------------------------*/
+
+/*-------------------------- Start of Header --------------------------*/
+
+header {
+	width: 96.569411764706%; /* 61.563em / 63.750em */
+	margin: 0.313em ;
+	padding: 0.625em;
+	background-image: url('../images/orange_stripe.png'); 
+	background-repeat: repeat-x;
+	border-radius: 0.375em;
+}
+
+header h1 {
+	margin: -2.58em 0em 0em 10.4em;
+	font-size: 2.125em;
+}
+
+header p {
+	margin: -.2em 0em 2em 17.9em;
+	font-size: 1.250em;
+}
+/*-------------------------- End of Header --------------------------*/
+
+
+/*-------------------------- Start of Nav --------------------------*/
+
+nav {
+	width: 59.375em
+	margin: 0.938em; auto;
+}
+
+nav ul {
+	width: 100%; /* 59.375em */
+	margin-left: -2em;
+	list-style-type: none;
+	overflow: hidden;
+	border-radius: 0.313em;
+}
+
+nav li {
+	width: 9.063em; 
+	margin-left: 0.063em;
+	float: left;
+	border: 0.063em solid #000;
+	border-radius: 0.313em;
+	background: #FC3;
+	text-shadow: 0.188em 0.063em 0.188em #666;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background-image: url('../images/orange_up_button_stripe.png'); 
+	background-repeat: repeat-x;
+	line-height: 1.563em;
+}
+/*---------- Start of Link States ----------*/
+
+Yellow = #FF0
+Dark Gray = #999
+Red = #F00
+White = #FFF
+Purple = 99F
+
+nav a:link {
+	color: #FF0;
+	background: #F90;
+}
+
+nav a:visited {
+	color: #CCC;
+	background: #F90;
+}
+
+nav a:hover {
+	color: #FF0;
+	background: #C26A03;
+	background-image: url('../images/orange_button_stripe.png'); 
+	background-repeat: repeat-x;
+}
+
+nav a:active {
+	color: #FC3;
+	background: #F90;
+}
+/*---------- End of Link States ----------*/
+
+/*-------------------------- End of Nav --------------------------*/
+
+/*-------------------------- Start of Aside --------------------------*/
+
+aside {
+	width: 21.960784313725%; /* 14.000em / 63.750em */
+	margin: 0.313em 0em 0em 0.313em; 
+	padding: 0.313em;
+	float: left;
+	background: #FFF;
+	border: 0.250em solid #ddd;
+	border-radius: 0.375em;
+	overflow: hidden;
+}
+
+aside ul {
+	width: 87.057142857143%; /* 12.188em */
+	list-style-type: none;
+	margin-top: 0.625em;
+	padding: 0;
+	overflow: hidden;
+}
+
+aside li {
+	width: 94.872005251067%; /* 11.563em / 12.188em */
+	margin: 0.938em auto;
+	text-align: center;
+}
+
+aside img {
+	max-width: 100%;
+} 
+/*-------------------------- End of Aside --------------------------*/
+
+/*-------------------------- Start of main_section --------------------------*/
+
+#main_section {
+	background: #FFF;
+}
+/*-------------------------- End of main_section --------------------------*/
+
+/*-------------------------- Start of Article --------------------------*/
+
+article {
+	width: 71.56862745098%; /* 45.625em / 63.750em */
+	margin: 0.313em 0.313em 0em 0em; 
+	padding: 0.625em;
+	background: url("../images/package_back.jpg");
+	float: right;
+	border: 0.250em solid #DDD;
+	border-radius: 0.375em;
+	overflow: hidden;
+}
+
+article ul {
+	width: 96.028493150685%; /* 43.813em / 45.625em */
+	margin: 0.625em auto 0.625em;
+	list-style-type: none;
+	background: url("../images/package_back.jpg");
+	border-radius: 0.375em;
+	overflow: hidden;
+	padding: 0.625em;
+	}
+
+article li {
+	width: 24.999429393103%; /* 10.953em / 43.813em */
+	float: left;
+	margin: auto;
+}
+
+article img {
+	max-width: 100%;
+	display: block;
+}
+/*-------------------------- End of Article --------------------------*/
+
+/*-------------------------- Start of Form --------------------------*/
+#sign_up_form {
+	width: 71.56862745098%; /* 45.625em / 63.750em */
+	
+	background: url("../images/package_back.jpg");
+}
+
+
+/*-------------------------- End of Form --------------------------*/
+
+
+/*-------------------------- Start of Section --------------------------*/
+
+section {
+	width: 71.56862745098%; /* 45.625em / 63.750em */
+	margin: 0.313em 0.313em 0em 0em; 
+	padding: 0.625em;
+	float: right;
+	border-radius: 0.375em;
+	border: 0.250em solid #DDD;
+	background: url("../images/package_back.jpg");
+}
+
+section p {
+	-moz-column-count: 3;
+	-moz-column-gap: 1.563em;
+}
+/*-------------------------- End of Section --------------------------*/
+
+/*-------------------------- Start of Gallery --------------------------*/
+
+#gallery {
+	width: 96.569411764706%; /* 61.563em / 63.750em */
+	margin: 0.313em 0em 0em 0.313em;
+	padding: 0.625em;
+	float: left;
+	background: #999;
+	border-radius: 0.375em;
+}
+
+#gallery h3 {
+	text-align: center;
+}
+
+#gallery ul {
+	list-style-type: none;
+	background: #FFF;
+	margin-top: 0.625em;
+	padding: 0.625em;
+	border-radius: 0.375em;
+	overflow: hidden;
+}
+
+#gallery li {
+	width: 18.273963257151%; /* 11.250em / 61.563em */
+	margin: 0.625em 1.563em;
+	/* padding: 0.625em;*/
+	float: left;
+	display: block;
+}
+
+#gallery img {
+	max-width: 100%;
+} 
+/*-------------------------- End of Gallery --------------------------*/
+
+/*-------------------------- Start of Footer --------------------------*/
+
+footer {
+	width: 96.569411764706%; /* 61.563em / 63.750em */
+	margin: 0.313em 0em 0em 0.313em;
+	padding: 0.625em;
+	float: left;
+	background: #E83F00;
+	border-radius: 0.375em;
+}
+
+footer h3 {
+	text-align: center;	
+}
+/*-------------------------- End of Footer --------------------------*/
+
+/*-------------------------- Start of Table --------------------------*/
+
+table {
+	width: 96.569411764706%; /* 61.563em / 63.750em */
+	margin: 0.313em auto;
+	width: border-collpase: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	text-align: justify;
+}
+
+td img {
+	margin: auto auto;
+}
+/*-------------------------- End of Table --------------------------*/
+
+/*  ======================Media Querries================  */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	body {
+		background-image: url("../images/metaltextures032.png");		
+	}
+	
+	#contentWrapper {
+		background: #FC3;
+	}
+	
+	h2, h3, h4, h5, h6 {
+		text-align: center;
+		line-height: 1.3em;
+	}
+	
+	header h1 {
+		margin: 0em 0em 0em .1em;
+		font-size: 2.125em;
+	}
+	
+	header p {
+		margin: 0em 0em 0em .4em;
+	}
+	
+	nav li{
+		width: 8.063em;
+	}
+	
+	nav a {
+		line-height: 1.3em;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#contentWrapper {
+	 background: #C39;
+	}
+	
+	aside {
+	display: none;
+	}
+	
+	article {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	#mainSection {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	footer {
+		/*width: 42.813em; */
+		float: right;
+	}
+}
+
+/* Mobile Portrait size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#contentWrapper {
+	 background: #0F0;
+	}
+	
+	aside {
+	display: none;
+	}
+	
+	article {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	#mainSection {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	footer {
+		/*width: 42.813em; */
+		float: right;
+	}
+<body>
+		<header>
+			<nav>
+			</nav>
+		</header>
+		<aside>
+		</aside>
+		<article>
+			<section>
+			</section>
+			<section>
+			</section>
+			<section>
+			</section>
+			<section>
+			</section>
+			<section>
+			</section>
+		</article>
+		</body>
