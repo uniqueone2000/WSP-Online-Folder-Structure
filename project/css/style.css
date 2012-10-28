@@ -1,88 +1,105 @@
 /*-------------------------- New CSS for Florida Department of Highway Safety and Motor Vehicles --------------------------*/
 
-/*-------------------------- Start of General Tags --------------------------*/
-
-
-h1, h2, h3, h4, h5, h6 { 
-	margin: 0em;
-	font-family: arial, helvetica; 
-	color: #000;
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) --------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
 	line-height: 1.5em;
 }
-p {
-
+ol, ul {
+	list-style: none;
 }
-
-a {
-	text-decoration: none;
+blockquote, q {
+	quotes: none;
 }
-/*-------------------------- End of General Tags --------------------------*/
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------- End of CSS RESET --------------------------*/
 
-/*-------------------------- Start of Body --------------------------*/
-
+/* -------------------------- Start of BODY  --------------------------*/
 body {
-	margin: 0em auto;
-	width: 60.000em;
-	background: #999;
+	width: 100%;
+	background: #025939;
 }
-/*-------------------------- End of Body --------------------------*/
+/* -------------------------- End of BODY  --------------------------*/
 
-/*-------------------------- Start of Header --------------------------*/
-
+/* -------------------------- Start of HEADER  --------------------------*/
 header {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em ;
-	padding: 0.625em;
-	background-image: url('../images/orange_stripe.png'); 
-	background-repeat: repeat-x;
-	border-radius: 0.375em;
+	overflow: hidden;
+	border-bottom: 2px solid #000;
+	background: #DDD url('../images/Flag_of_Florida.png') no-repeat 13.125em;
 }
 
 header h1 {
-	margin: -2.58em 0em 0em 10.4em;
-	font-size: 2.125em;
+	text-align: center;
 }
 
-header p {
-	margin: -.2em 0em 2em 17.9em;
-	font-size: 1.250em;
+/* -------------------------- End of HEADER  --------------------------*/
+
+/* -------------------------- Start of WRAPPER  --------------------------*/
+#wrapper {
+	width: 60.000em;
+	margin: 0em auto;
+	overflow: hidden;
+	background: #FFF;
 }
-/*-------------------------- End of Header --------------------------*/
+/* -------------------------- End of WRAPPER  --------------------------*/
 
-
-/*-------------------------- Start of Nav --------------------------*/
-
+/* -------------------------- Start of NAVIGATION  --------------------------*/
 nav {
-	width: 59.375em
-	margin: 0.938em; auto;
+	width: 60.000em;
+	background: #F2BE4B;
+	overflow: hidden;
 }
 
 nav ul {
-	width: 100%; /* 59.375em */
-	margin-left: -2em;
-	list-style-type: none;
+	background: #D5611A;
 	overflow: hidden;
-	border-radius: 0.313em;
+	display: inline;
 }
 
 nav li {
-	width: 9.063em; 
-	margin-left: 0.063em;
+	width: 10.000em;
+	background: #F2BE4B;
 	float: left;
-	border: 0.063em solid #000;
-	border-radius: 0.313em;
-	background: #FC3;
-	text-shadow: 0.188em 0.063em 0.188em #666;
 }
 
 nav a {
-	text-decoration: none;
+	background: #C26A03;
 	display: block;
 	text-align: center;
-	background-image: url('../images/orange_up_button_stripe.png'); 
-	background-repeat: repeat-x;
-	line-height: 1.563em;
 }
+
 /*---------- Start of Link States ----------*/
 
 Yellow = #FF0
@@ -92,7 +109,7 @@ White = #FFF
 Purple = 99F
 
 nav a:link {
-	color: #FF0;
+	color: #FFF;
 	background: #F90;
 }
 
@@ -102,7 +119,7 @@ nav a:visited {
 }
 
 nav a:hover {
-	color: #FF0;
+	color: #F2CE20;
 	background: #C26A03;
 	background-image: url('../images/orange_button_stripe.png'); 
 	background-repeat: repeat-x;
@@ -114,184 +131,52 @@ nav a:active {
 }
 /*---------- End of Link States ----------*/
 
-/*-------------------------- End of Nav --------------------------*/
+/* -------------------------- End of NAVIGATION  --------------------------*/
 
-/*-------------------------- Start of Aside --------------------------*/
-
+/* -------------------------- Start of ASIDE  --------------------------*/
 aside {
-	width: 21.960784313725%; /* 14.000em / 63.750em */
-	margin: 0.313em 0em 0em 0.313em; 
-	padding: 0.313em;
+	width: 15.438em;
+	margin: 0.125em;
+	background: #D5611A;
 	float: left;
-	background: #FFF;
-	border: 0.250em solid #ddd;
-	border-radius: 0.375em;
-	overflow: hidden;
 }
+/* -------------------------- End of ASIDE  --------------------------*/
 
-aside ul {
-	width: 87.057142857143%; /* 12.188em */
-	list-style-type: none;
-	margin-top: 0.625em;
-	padding: 0;
-	overflow: hidden;
-}
-
-aside li {
-	width: 94.872005251067%; /* 11.563em / 12.188em */
-	margin: 0.938em auto;
-	text-align: center;
-}
-
-aside img {
-	max-width: 100%;
-} 
-/*-------------------------- End of Aside --------------------------*/
-
-/*-------------------------- Start of main_section --------------------------*/
-
+/* -------------------------- Start of MAIN SECTION  --------------------------*/
 #main_section {
-	background: #FFF;
-}
-/*-------------------------- End of main_section --------------------------*/
-
-/*-------------------------- Start of Article --------------------------*/
-
-article {
-	width: 71.56862745098%; /* 45.625em / 63.750em */
-	margin: 0.313em 0.313em 0em 0em; 
-	padding: 0.625em;
-	background: url("../images/package_back.jpg");
+	width: 44.063em;
+	margin: 0.125em;
 	float: right;
-	border: 0.250em solid #DDD;
-	border-radius: 0.375em;
-	overflow: hidden;
+	background: #CCC;
+	padding: auto 0.500em;
 }
+/* -------------------------- End of MAIN SECTION  --------------------------*/
 
-article ul {
-	width: 96.028493150685%; /* 43.813em / 45.625em */
-	margin: 0.625em auto 0.625em;
-	list-style-type: none;
-	background: url("../images/package_back.jpg");
-	border-radius: 0.375em;
-	overflow: hidden;
-	padding: 0.625em;
-	}
-
-article li {
-	width: 24.999429393103%; /* 10.953em / 43.813em */
-	float: left;
-	margin: auto;
-}
-
-article img {
-	max-width: 100%;
-	display: block;
-}
-/*-------------------------- End of Article --------------------------*/
-
-/*-------------------------- Start of Form --------------------------*/
-#sign_up_form {
-	width: 71.56862745098%; /* 45.625em / 63.750em */
-	
-	background: url("../images/package_back.jpg");
-}
-
-
-/*-------------------------- End of Form --------------------------*/
-
-
-/*-------------------------- Start of Section --------------------------*/
-
+/* -------------------------- Start of SECTION  --------------------------*/
 section {
-	width: 71.56862745098%; /* 45.625em / 63.750em */
-	margin: 0.313em 0.313em 0em 0em; 
-	padding: 0.625em;
-	float: right;
-	border-radius: 0.375em;
-	border: 0.250em solid #DDD;
-	background: url("../images/package_back.jpg");
+	background: #BF3326;
 }
 
-section p {
-	-moz-column-count: 3;
-	-moz-column-gap: 1.563em;
-}
-/*-------------------------- End of Section --------------------------*/
+/* -------------------------- End of SECTION  --------------------------*/
 
-/*-------------------------- Start of Gallery --------------------------*/
-
-#gallery {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em 0em 0em 0.313em;
-	padding: 0.625em;
+/* -------------------------- Start of ARTICLE --------------------------*/
+article {
+	
+	margin: 0.125em;
 	float: left;
-	background: #999;
-	border-radius: 0.375em;
-}
-
-#gallery h3 {
-	text-align: center;
-}
-
-#gallery ul {
-	list-style-type: none;
-	background: #FFF;
-	margin-top: 0.625em;
+	background: #DDD;
 	padding: 0.625em;
-	border-radius: 0.375em;
-	overflow: hidden;
 }
+/* -------------------------- End of ARTICLE  --------------------------*/
 
-#gallery li {
-	width: 18.273963257151%; /* 11.250em / 61.563em */
-	margin: 0.625em 1.563em;
-	/* padding: 0.625em;*/
-	float: left;
-	display: block;
-}
-
-#gallery img {
-	max-width: 100%;
-} 
-/*-------------------------- End of Gallery --------------------------*/
-
-/*-------------------------- Start of Footer --------------------------*/
-
+/* -------------------------- Start of FOOTER  --------------------------*/
 footer {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em 0em 0em 0.313em;
-	padding: 0.625em;
-	float: left;
-	background: #E83F00;
-	border-radius: 0.375em;
+	background: #F28B0C;
+	clear: both;
+	border-top: 2px solid #000;
 }
+/* -------------------------- End of FOOTER  --------------------------*/
 
-footer h3 {
-	text-align: center;	
-}
-/*-------------------------- End of Footer --------------------------*/
-
-/*-------------------------- Start of Table --------------------------*/
-
-table {
-	width: 96.569411764706%; /* 61.563em / 63.750em */
-	margin: 0.313em auto;
-	width: border-collpase: collapse;
-}
-
-th {
-	text-align: left;
-}
-
-td {
-	text-align: justify;
-}
-
-td img {
-	margin: auto auto;
-}
-/*-------------------------- End of Table --------------------------*/
 
 /*  ======================Media Querries================  */
 
@@ -301,7 +186,7 @@ td img {
 		background-image: url("../images/metaltextures032.png");		
 	}
 	
-	#contentWrapper {
+	#wrapper {
 		background: #FC3;
 	}
 	
@@ -331,8 +216,8 @@ td img {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	#contentWrapper {
-	 background: #C39;
+	#wrapper {
+		background: #C39;
 	}
 	
 	aside {
@@ -359,8 +244,8 @@ td img {
 
 /* Mobile Portrait size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	#contentWrapper {
-	 background: #0F0;
+	#wrapper {
+		background: #0F0;
 	}
 	
 	aside {
@@ -383,23 +268,3 @@ td img {
 		/*width: 42.813em; */
 		float: right;
 	}
-<body>
-		<header>
-			<nav>
-			</nav>
-		</header>
-		<aside>
-		</aside>
-		<article>
-			<section>
-			</section>
-			<section>
-			</section>
-			<section>
-			</section>
-			<section>
-			</section>
-			<section>
-			</section>
-		</article>
-		</body>
