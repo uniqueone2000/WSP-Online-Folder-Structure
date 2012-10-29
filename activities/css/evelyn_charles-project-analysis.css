@@ -27,3 +27,164 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+body {
+	font: arial, helvetica, serif;
+}
+
+p {
+	text-indent: 1.563em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+#wrapper, article, section, ul {
+	margin-left: 0.938em;
+}
+
+/* -------------------------- Start of BODY  --------------------------*/
+body {
+	width: 100%;
+	background: #14594B;
+}
+/* -------------------------- End of BODY  --------------------------*/
+
+/* -------------------------- Start of WRAPPER  --------------------------*/
+#wrapper {
+	width: 60.000em;
+	margin: 0.313em auto;
+	background: #FFF;
+	overflow: hidden;
+	padding: 0.625em;
+	border-radius: 0.125em;
+}
+
+#wrapper h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font: 1.3em, arial, helvetica, serif, bold;
+	text-shadow: 0.125em 0.125em 0.125em #888;
+}
+
+
+
+/* -------------------------- End of WRAPPER  --------------------------*/
+
+/* -------------------------- Start of HEADER  --------------------------*/
+header {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+}
+
+header h1, h2, h3, h4, h5, h6 {
+	margin-left: 11.875em;
+}
+/* -------------------------- End of HEADER  --------------------------*/
+
+/* -------------------------- Start of ASIDE  --------------------------*/
+aside {
+	width: 11.250em;
+	margin: 0.063em 0em;
+	background: #2ABFA1;
+	float: left;
+	border-radius: 0.125em;
+}
+
+nav {
+	width: 11.250em;
+	margin: 0.125em auto;
+	overflow: hidden;
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+}
+
+nav li {
+	width: 11.250em;
+	float: left;
+	margin-bottom: 0.125em;
+}
+
+nav a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	line-height: 1.3em;
+	padding: 0em 0.250em;
+	text-shadow: 0.125em 0.125em 0.125em #888;
+}
+
+/*---------- Start of Link States ----------*/
+
+Yellow = #FF0
+Dark Gray = #999
+Red = #F00
+White = #FFF
+Purple = 99F
+
+nav a:link {
+	color: #FFF;
+	background: #F90;
+}
+
+nav a:visited {
+	color: #000;
+	background: #33E5C2;
+}
+
+nav a:hover {
+	color: #FFF;/*33E5C2*/
+	background: #14594B;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+}
+
+nav a:active {
+	color: #FC3;
+	background: #F90;
+}
+/*---------- End of Link States ----------*/
+
+/* -------------------------- End of ASIDE  --------------------------*/
+
+/* -------------------------- Start of ARTICLE --------------------------*/
+article {
+	width: 46.750em;
+	margin: 0.063em 0em 0em 0.063em;
+	padding: 0.625em 0.938em;
+	background: #8ED9CA;
+	float: left;
+	border-radius: 0.125em;
+}
+
+article ol {
+	margin-left: 1.250em;
+	margin-bottom: .8em;
+}
+
+
+
+/* -------------------------- End of ARTICLE  --------------------------*/
+
+/* -------------------------- Start of SECTION  --------------------------*/
+section {
+	width: 46.750em;
+	margin: 0.063em auto;
+	padding: 0.625em 0.938em;
+	float: right;
+	background: #8ED9CA;
+	border-radius: 0.125em;
+}
+
+/* -------------------------- End of SECTION  --------------------------*/
+
+/* -------------------------- Start of FOOTER  --------------------------*/
+footer {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+}
+/* -------------------------- End of FOOTER  --------------------------*/
+footer {
+	clear: both;
+}
