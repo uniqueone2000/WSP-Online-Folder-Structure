@@ -18,13 +18,18 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	/*font: inherit;
+	vertical-align: baseline;*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font: 1.3em, arial, helvetica, serif, bold;
 }
 
 body {
@@ -57,15 +62,6 @@ body {
 	padding: 0.625em;
 	border-radius: 0.125em;
 }
-
-#wrapper h1, h2, h3, h4, h5, h6 {
-	line-height: 1.5em;
-	font: 1.3em, arial, helvetica, serif, bold;
-	text-shadow: 0.125em 0.125em 0.125em #888;
-}
-
-
-
 /* -------------------------- End of WRAPPER  --------------------------*/
 
 /* -------------------------- Start of HEADER  --------------------------*/
@@ -75,8 +71,8 @@ header {
 	padding: 0.625em;
 }
 
-header h1, h2, h3, h4, h5, h6 {
-	margin-left: 11.875em;
+header h1  {
+	text-align: center;
 }
 /* -------------------------- End of HEADER  --------------------------*/
 
@@ -157,6 +153,11 @@ article {
 	border-radius: 0.125em;
 }
 
+article h1, h2, h3 {
+	margin: 0em;
+	
+}
+
 article ol {
 	margin-left: 2.813em;
 	margin-bottom: .8em;
@@ -165,11 +166,6 @@ article ol {
 article ol ul {
 	list-style-type: square;
 }
-
-article h1 {
-	text-align: center:
-}
-
 /* -------------------------- End of ARTICLE  --------------------------*/
 
 /* -------------------------- Start of SECTION  --------------------------*/
@@ -180,6 +176,33 @@ section {
 	float: right;
 	background: #8ED9CA;
 	border-radius: 0.125em;
+}
+
+section h1, h2, h3 {
+	width: 96%;
+	text-align: left;
+	margin: 0.5em 1.500em;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+}
+
+section p {
+	margin: 0em 2.813em;
+}
+
+section ul {
+	margin: 0em 2.813em;
+	padding: 0.625em;
+	background: #54D1B1;
+	border-radius: 0.125em;
+}
+
+section li {
+	margin-left: 0.625em;
+	list-style-type: square;
 }
 
 table {
