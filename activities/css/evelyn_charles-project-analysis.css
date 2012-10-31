@@ -27,9 +27,25 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+hgroup {
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+	text-align: left;
+	/*margin: 0.5em 1.500em;*/
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 	font: 1.3em, arial, helvetica, serif, bold;
+	margin: 0.5em 1.500em;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
 }
 
 body {
@@ -45,6 +61,11 @@ p {
 #wrapper, article, section, ul {
 	margin-left: 0.938em;
 }
+
+td.right {
+	text-align: right;
+}
+
 
 /* -------------------------- Start of BODY  --------------------------*/
 body {
@@ -80,6 +101,8 @@ header h1  {
 aside {
 	width: 11.250em;
 	margin: 0.063em 0em;
+	padding-bottom: 91.45em;
+	margin-bottom: -91.45em;
 	background: #2ABFA1;
 	float: left;
 	border-radius: 0.125em;
@@ -178,17 +201,6 @@ section {
 	border-radius: 0.125em;
 }
 
-section h1, h2, h3 {
-	width: 96%;
-	text-align: left;
-	margin: 0.5em 1.500em;
-	text-indent: 0.625em;
-	background: #14594B;
-	color: #FFF;
-	text-shadow: 0.125em 0.125em 0.125em #000;
-	border-radius: 0.125em;
-}
-
 section p {
 	margin: 0em 2.813em;
 }
@@ -220,9 +232,7 @@ tr {
 	border: 0.125em solid #999;
 	text-align: left;
 }
-td.right {
-	text-align: right;
-}
+
 
 /* -------------------------- End of SECTION  --------------------------*/
 
