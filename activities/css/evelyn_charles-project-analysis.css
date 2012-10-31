@@ -31,6 +31,7 @@ hgroup {
 	text-shadow: 0.125em 0.125em 0.125em #000;
 	border-radius: 0.125em;
 	text-align: left;
+	/*margin: 0.5em 1.500em;*/
 	text-indent: 0.625em;
 	background: #14594B;
 	color: #FFF;
@@ -100,8 +101,8 @@ header h1  {
 aside {
 	width: 11.250em;
 	margin: 0.063em 0em;
-	padding-bottom: 104.5em;
-	margin-bottom: -105em;
+	padding-bottom: 91.45em;
+	margin-bottom: -91.45em;
 	background: #2ABFA1;
 	float: left;
 	border-radius: 0.125em;
