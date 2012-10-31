@@ -40,10 +40,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 /* -------------------------- End of CSS RESET --------------------------*/
 
 /* -------------------------- Start of BODY  --------------------------*/
@@ -139,6 +136,8 @@ aside {
 	margin: 0.125em;
 	background: #D5611A;
 	float: left;
+	padding-bottom: 43.5em;
+	margin-bottom: -43.5em;
 }
 /* -------------------------- End of ASIDE  --------------------------*/
 
@@ -177,6 +176,39 @@ footer {
 }
 /* -------------------------- End of FOOTER  --------------------------*/
 
+/* -------------------------- Start of TABLES  --------------------------*/
+table {
+	width: 43.125em;
+	margin: 0.313em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #000;
+}
+
+th {
+	background: #666;
+	color: #FFF;
+	border: 1px solid #000;
+	padding: 0.313em;
+}
+
+tr {
+
+}
+
+td {
+	border: 1px solid #000;
+	padding: 0.313em;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+/* -------------------------- End of TABLES  --------------------------*/
 
 /*  ======================Media Querries================  */
 
